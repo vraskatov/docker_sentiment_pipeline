@@ -1,0 +1,7 @@
+pandas==0.25.3
+pymongo==4.1.1
+pytz==2019.3
+requests==2.22.0
+SQLAlchemy==1.4.36
+tweepy==4.10.0
+vaderSentiment==3.3.2
