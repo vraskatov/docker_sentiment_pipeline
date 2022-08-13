@@ -13,7 +13,7 @@ time.sleep(240)
 pg = create_engine('postgresql://docker_user:1234@postgresdb:5432/twitter', echo=True)
 
 # Create a Webhook object to connect to Slack.
-# Pass your webhook directly into webhook_url or load it from a credentials file.
+# Pass your webhook directly into webhook_url or store it in a credentials file.
 webhook_url = credentials.WH
 
 while True:
