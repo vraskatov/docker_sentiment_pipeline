@@ -59,7 +59,3 @@ while True:
         logging.warning('----------\n')
 
     time.sleep(300)
-# Might use elapsed time at a later point:
-# https://www.programiz.com/python-programming/examples/elapsed-time
-# NEED to used the elapsed time, in order to keep the pipeline synchronous!
-# try and except handling (IndexError!)
